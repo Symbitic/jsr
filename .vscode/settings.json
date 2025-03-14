@@ -1,0 +1,18 @@
+{
+  "C_Cpp.autoAddFileAssociations": false,
+  "C_Cpp.default.compileCommands": "${workspaceFolder}/build/compile_commands.json",
+  "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+  "cmake.configureOnOpen": false,
+  "cmake.useCMakePresets": "always",
+  "[c]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "xaver.clang-format"
+  },
+  "[cpp]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "xaver.clang-format"
+  },
+  "search.exclude": {
+    "gitignore": true
+  }
+}

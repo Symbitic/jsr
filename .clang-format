@@ -1,0 +1,50 @@
+# This is the clang-format configuration style used by Qt, based on the rules
+# from https://wiki.qt.io/Qt_Coding_Style
+# and https://wiki.qt.io/Coding_Conventions
+
+---
+
+# Webkit style was loosely based on the Qt style
+BasedOnStyle: WebKit
+
+AlignAfterOpenBracket: true
+AllowShortFunctionsOnASingleLine: Empty
+AlwaysBreakTemplateDeclarations: true
+BraceWrapping:
+    AfterClass: true
+    AfterControlStatement: false
+    AfterEnum: true
+    AfterFunction: true
+    AfterNamespace: false
+    AfterObjCDeclaration: false
+    AfterStruct: true
+    AfterUnion: false
+    BeforeCatch: false
+    BeforeElse: false
+    IndentBraces: false
+BreakBeforeBinaryOperators: NonAssignment
+BreakBeforeBraces: Custom
+BreakConstructorInitializers: BeforeComma
+BreakConstructorInitializersBeforeComma: false
+ColumnLimit: 100
+CommentPragmas: "^!|^:"
+ConstructorInitializerAllOnOneLineOrOnePerLine: false
+ConstructorInitializerIndentWidth: 4
+ContinuationIndentWidth: 8
+ForEachMacros:
+    - foreach
+    - Q_FOREACH
+    - BOOST_FOREACH
+    - forever
+    - Q_FOREVER
+    - QBENCHMARK
+    - QBENCHMARK_ONCE
+IndentCaseLabels: true
+IndentPPDirectives: AfterHash
+NamespaceIndentation: None
+PointerBindsToType: false
+SortIncludes: false
+SortUsingDeclarations: true
+SpaceAfterTemplateKeyword: false
+Standard: Cpp11
+UseTab: Never

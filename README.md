@@ -2,6 +2,9 @@
 
 POC JSR client written in C++ using Qt6. Inspired by [littledivy's iOS beta](https://github.com/littledivy/jsr_ios). Some icons from official JSR repository.
 
+![Desktop screenshot](./screenshots/screenshot-desktop.png)
+![Mobile screenshot](./screenshots/screenshot-mobile.png)
+
 **THIS IS UNFINISHED!!!**
 
 Made mostly to compare Swift and SwiftUI against Qt6 and QML. While QML might require a few more lines of code, it offers support for all platforms and screen-sizes and hardware-accelerated logic in exchange. It's also much more reactive and declarative.
